@@ -30,7 +30,7 @@ def get_filters():
         # except ValueError:
         #     print("Sorry, I'm looking for a string type")
         
-        city = str(input("\nPick a city (chicago, new york city, washington): ").strip().lower())
+        city = str(input("\nPick a city :=> \n1.chicago \n2.new york city \n3.washington): ").strip().lower())
 
         if city not in ("chicago", "new york city", "washington"):
             print("\nInvalid Response. Please try again")
