@@ -62,7 +62,7 @@ def get_filters():
             validity_check()
             break
 
-    print("\nYou selected '{}' as city, '{}' as month, and '{}' as day. \nFiltering by your parameters....".format(city.title(), month.title(), day.title()))
+    print("\nYou choosen '{}' as city, '{}' as month, and '{}' as day. \nFiltering by your parameters....".format(city.title(), month.title(), day.title()))
     print()
     print('-'*40)
     return city, month, day
